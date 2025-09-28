@@ -1,3 +1,4 @@
+create database test;
 create table emp(
 emp_id int,
 f_name varchar(20),
@@ -11,5 +12,5 @@ mobile_no varchar(30),
 gender enum('male','female','other'),
 project set('p-1','p-2','p-3','p-4')
 );
-create database test;
+
 
